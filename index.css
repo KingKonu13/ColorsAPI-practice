@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    margin: .5em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: inherit;
+}
+
+header > input{
+    padding: 0;
+    width: 3.8em;
+    height: 2.6em;
+    border: .5px solid #D1D5D8;
+}
+
+header > select{
+    width: 19.5em;
+    height: 2.625em;
+    padding-left: .5em
+}
+
+header > button{
+    width: 7.7em;
+    height: 2.6em; 
+}
+
+#colors{
+    display: flex; 
+    margin: 1em;
+    height: 100%;
+}
